@@ -31,7 +31,7 @@ def setup_logger():
         "handlers": [
             {
                 "sink": sys.stdout,
-                "format": "<fg #2E8B57>{time:HH:mm:ss.fff}</fg #2E8B57> | "
+                "format": "<fg #2E8B57>{time:HH:mm:ss.SSS}</fg #2E8B57> | "
                 "{level: <8} | "
                 "<fg #4169E1>{module}:{line}</fg #4169E1> | "
                 "{message}",
