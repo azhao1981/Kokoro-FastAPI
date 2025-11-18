@@ -10,6 +10,7 @@ export PYTHONPATH=$PROJECT_ROOT:$PROJECT_ROOT/api
 export MODEL_DIR=src/models
 export VOICES_DIR=src/voices/v1_0
 export WEB_PLAYER_PATH=$PROJECT_ROOT/web
+export UV_LINK_MODE=copy
 
 # export HF_ENDPOINT=https://hf-mirror.com
 # uv pip install -e ".[gpu]" --index-url https://mirrors.aliyun.com/pypi/simple
